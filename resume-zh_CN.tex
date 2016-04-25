@@ -1,0 +1,90 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{刘彬}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{codergma@163.com}{132-0712-2236}{http://blog.codergma.com}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+
+\section{\faInfo\ 求职意向}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item php服务端开发，服务器架构
+  \item 不抵制前端编程，也不擅长
+\end{itemize}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{中国地质大学}}{2010.09 -- 2014.07}
+
+
+\section{\faUsers\ 工作经历}
+\datedsubsection{\textbf{中地数码} 武汉}{2014年7月 -- 至今}
+PHP后端开发
+\begin{itemize}
+  \item 文件服务器开发
+  \item 用户中心开发
+  \item 需求中心开发
+\end{itemize}
+阿里云环境部署及维护
+\begin{itemize}
+  \item 服务器架构及运维
+  \item 服务器优化
+\end{itemize}
+其他
+\begin{itemize}
+  \item gitlab代码服务器搭建及维护
+  \item 备份服务器搭建及维护
+  \item 内网反向代理搭建及维护
+  \item 内网dns搭建及维护
+\end{itemize}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: PHP, html, css, js
+  \item 编程框架: CI, ThinkPhp, Jquery, Bootstrap  
+  \item 平台: Ubuntu
+  \item 版本控制器: git
+\end{itemize}
+
+\section{\faHeartO\ 自我描述}
+\begin{itemize}
+  \item 技术博客: http://blog.codergma.com
+  \item GitHub: https://github.com/codergma
+  \item 熟悉HTTP,WebSocket,TCP/UDP等协议。
+  \item 熟练使用php,了解php内核，了解php进程编程，熟悉CI，TP编程框架。
+  \item 熟悉apache配置,以及ngnix负载均衡的配置。
+  \item 熟悉mysql应用开发，mysql读写分离,主从服务器搭建，日志分析，性能优化。
+  \item 熟练使用Redis，了解基本配置和存储结构优化，smaryun的用户中心,github上项目UcenterRedis就是借助redis实现的。
+  \item 写的了爬虫（https://github.com/codergma/FaceBook），爬取FaceBook数据及模拟操作；
+  \item 有良好的工作习惯，熟练使用documents,stackoverflow,github,google, 博客等引擎或社区解决问题，不哭爹喊娘；
+\end{itemize}
+
+
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
